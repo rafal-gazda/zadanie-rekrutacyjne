@@ -3,21 +3,21 @@
     width: 60%;
     text-align: center;
 
+    select {
+        color: $color-grey-light1;
+    }
+
     &__input {
         background-color: $color-white;
         border: 1px solid $color-grey-light4;
         border-radius: .3rem;
         padding: .6rem .4rem;
-        color: $color-grey-light1;
-
+        font-size: 1.3rem;
+       
         &:focus {
             outline: none;
             box-shadow: 0 1rem 2rem rgba($color-black, .1);
             border-bottom: 3px solid $color-primary;
-        }
-
-        &:focus:invalid {
-            border-bottom: 3px solid $color-secondary-dark;
         }
 
         &::-webkit-input-placeholder {
@@ -48,14 +48,13 @@
         color: $color-white;
     }
 
+    &__checkbox {
+        margin-top: .25rem;
+        margin-right: .6rem;
+    }
+
     &__link {
         color: #35a8e0;
         text-decoration: none;
-    }
-
-    &__input:placeholder-shown + &__label {
-        opacity: 0;
-        visibility: hidden;
-        transform: translateY(-4rem);
     }
 }
