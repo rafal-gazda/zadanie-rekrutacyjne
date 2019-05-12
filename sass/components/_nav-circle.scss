@@ -1,0 +1,18 @@
+.nav-circle {
+    margin-top: 6.5rem;
+    text-align: center;
+    border: .2rem solid $color-grey-light3;
+    display: inline-block;
+    position: relative;
+
+    @include on-circle($item-count: 12, $circle-size: 32rem , $item-size: 4.6rem);
+
+    &__img {
+        position: absolute;
+        width: 80%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        height: auto;
+    }
+}

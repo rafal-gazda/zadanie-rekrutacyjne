@@ -1,0 +1,18 @@
+.footer {
+    margin-top: 10rem;
+    background-color: $color-blue;
+    
+    &__background {
+        padding: 0 0 3rem 0;
+        background-image: url(../../img/background-footer.png);
+        background-size: 120%;
+        background-position: bottom 45% left 50%;
+    }
+
+    &__phone {
+        color: white;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+
+}
