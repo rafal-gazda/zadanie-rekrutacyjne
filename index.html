@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css?family=Hind:400,600|Roboto:400,700" rel="stylesheet">
 
         <link rel="stylesheet" href="css/style.css">
@@ -93,19 +94,23 @@
                     </div>
                     <div class="row row-margin--small">
                         <input class="col-1-of-3 form__input" placeholder="Firma" required>
-                        <select class="col-1-of-3 form__input">
-                            <option value="" disabled selected>Ilość pracowników</option>
-                            <option value="1 - 25">1 - 25</option>
-                            <option value="25 - 100">25 - 100</option>
-                            <option value="100 - 500">100 - 500</option>
-                            <option value="500 - ">500 - </option>
-                        </select>
-                        <select class="col-1-of-3 form__input">
-                                <option value="" disabled selected>Roczny dochód</option>
-                                <option value="0 - 10000 zł">0 - 10000 zł</option>
-                                <option value="10000 - 50000 zł">10000 - 50000 zł</option>
-                                <option value="50000 - ">50000 zł i więcej </option>
-                        </select>
+                        <label for="" class="col-1-of-3 form__input select">
+                            <select class="form__select">
+                                <option value="" disabled selected>Ilość pracowników</option>
+                                <option value="1 - 25">1 - 25</option>
+                                <option value="25 - 100">25 - 100</option>
+                                <option value="100 - 500">100 - 500</option>
+                                <option value="500 - ">500 - </option>
+                            </select>
+                        </label>
+                        <label for="" class="col-1-of-3 form__input select">
+                            <select class="form__select">
+                                    <option value="" disabled selected>Roczny dochód</option>
+                                    <option value="0 - 10000 zł">0 - 10000 zł</option>
+                                    <option value="10000 - 50000 zł">10000 - 50000 zł</option>
+                                    <option value="50000 - ">50000 zł i więcej </option>
+                            </select>
+                        </label>
                     </div>
                     <div class="row row-margin--small">
                         <textarea class="form__textarea" id="" placeholder="Wiadomość"></textarea>
