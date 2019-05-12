@@ -1,7 +1,7 @@
 {
-  "name": "natours",
+  "name": "Zadanie rekrutacyjne",
   "version": "1.0.0",
-  "description": "Landing page for natours",
+  "description": "Landing page",
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
